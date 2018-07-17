@@ -27,7 +27,7 @@
 			</Item>
 			<Item Name="myRIO Project Documentation.html" Type="Document" URL="../documentation/myRIO Project Documentation.html"/>
 		</Item>
-		<Item Name="RubikLibrary.lvlib" Type="Library" URL="../../Rubik&apos;s Cube/Projekt-RubikLibrary/RubikLibrary.lvlib"/>
+		<Item Name="RubikLibrary.lvlib" Type="Library" URL="../../Projekt-RubikLibrary/RubikLibrary.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Calculate Clock Settings.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/VIs/Calculate Clock Settings.vi"/>
@@ -48,7 +48,6 @@
 				<Item Name="IO Manager.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/VIs/IO Manager.vi"/>
 				<Item Name="Is FPGA Ref Available.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/VIs/Is FPGA Ref Available.vi"/>
 				<Item Name="Lock Mutex.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/VIs/Lock Mutex.vi"/>
-				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/Numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="Mutex Collection.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/Typedefs/Mutex Collection.ctl"/>
 				<Item Name="myRIO Generic Hardware Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/Typedefs/myRIO Generic Hardware Reference.ctl"/>
 				<Item Name="myRIO v1.0 Build Mutex Name.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/myRIO v1.0/Resource Manager/VIs/myRIO v1.0 Build Mutex Name.vi"/>
@@ -80,14 +79,12 @@
 				<Item Name="Ref Counter Action Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/Typedefs/Ref Counter Action Enum.ctl"/>
 				<Item Name="Ref Counter.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/VIs/Ref Counter.vi"/>
 				<Item Name="Resource Manager Action Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/Typedefs/Resource Manager Action Enum.ctl"/>
-				<Item Name="roboRIO PWM Channels FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/roboRIO v1.0/PWM/Typedefs/roboRIO PWM Channels FPGA Reference.ctl"/>
-				<Item Name="roboRIO v1.0 Write PWM.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/roboRIO v1.0/PWM/VIs/roboRIO v1.0 Write PWM.vi"/>
 				<Item Name="System FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/myRIO v1.0/System/Typedefs/System FPGA Reference.ctl"/>
 				<Item Name="Unlock Mutex.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/VIs/Unlock Mutex.vi"/>
 				<Item Name="Validate Channels.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/common/Instrument Driver Framework/utilities/VIs/Validate Channels.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 			</Item>
-			<Item Name="GripSmartNoWait.vi" Type="VI" URL="../../Rubik&apos;s Cube/Projekt-RubikLibrary/GripSmartNoWait.vi"/>
+			<Item Name="GripSmartNoWait.vi" Type="VI" URL="../../Projekt-RubikLibrary/GripSmartNoWait.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -260,14 +257,14 @@ AddOutputFilter chunkFilter
 				<Item Name="Validate Channels.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Validate Channels.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 			</Item>
-			<Item Name="GripSmartNoWait.vi" Type="VI" URL="../../Rubik&apos;s Cube/Projekt-RubikLibrary/GripSmartNoWait.vi"/>
+			<Item Name="GripSmartNoWait.vi" Type="VI" URL="../../Projekt-RubikLibrary/GripSmartNoWait.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="rioembeddedcanlvapi.dll" Type="Document" URL="rioembeddedcanlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="RubikLibrary.lvlib" Type="Library" URL="../../Rubik&apos;s Cube/Projekt-RubikLibrary/RubikLibrary.lvlib"/>
+			<Item Name="RubikLibrary.lvlib" Type="Library" URL="../../Projekt-RubikLibrary/RubikLibrary.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
