@@ -173,6 +173,8 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="OrientationCCW(L).vi" Type="VI" URL="../OrientationCCW(L).vi"/>
+		<Item Name="OrientationCW(L).vi" Type="VI" URL="../OrientationCW(L).vi"/>
 		<Item Name="OrientationFSM.vi" Type="VI" URL="../OrientationFSM.vi"/>
 		<Item Name="RubikOpGroup.vi" Type="VI" URL="../RubikOpGroup.vi"/>
 		<Item Name="TestRubikOpGroup.vi" Type="VI" URL="../TestRubikOpGroup.vi"/>
