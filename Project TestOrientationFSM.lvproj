@@ -104,6 +104,7 @@
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
 		<Property Name="host.TargetCPUID" Type="UInt">8</Property>
 		<Property Name="host.TargetOSID" Type="UInt">8</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
@@ -173,11 +174,14 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="CloseOpenGrip.vi" Type="VI" URL="../CloseOpenGrip.vi"/>
 		<Item Name="OrientationCCW(L).vi" Type="VI" URL="../OrientationCCW(L).vi"/>
 		<Item Name="OrientationCW(L).vi" Type="VI" URL="../OrientationCW(L).vi"/>
+		<Item Name="OrientationCW2(L).vi" Type="VI" URL="../OrientationCW2(L).vi"/>
 		<Item Name="OrientationFSM.vi" Type="VI" URL="../OrientationFSM.vi"/>
 		<Item Name="RubikOpGroup.vi" Type="VI" URL="../RubikOpGroup.vi"/>
 		<Item Name="TestRubikOpGroup.vi" Type="VI" URL="../TestRubikOpGroup.vi"/>
+		<Item Name="OrientationCCW2(L).vi" Type="VI" URL="../OrientationCCW2(L).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AI IRQ FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/IRQ/typedefs/AI IRQ FPGA Reference.ctl"/>
