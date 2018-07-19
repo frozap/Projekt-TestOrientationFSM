@@ -176,12 +176,12 @@ AddOutputFilter chunkFilter
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="CloseOpenGrip.vi" Type="VI" URL="../CloseOpenGrip.vi"/>
 		<Item Name="OrientationCCW(L).vi" Type="VI" URL="../OrientationCCW(L).vi"/>
+		<Item Name="OrientationCCW2(L).vi" Type="VI" URL="../OrientationCCW2(L).vi"/>
 		<Item Name="OrientationCW(L).vi" Type="VI" URL="../OrientationCW(L).vi"/>
 		<Item Name="OrientationCW2(L).vi" Type="VI" URL="../OrientationCW2(L).vi"/>
 		<Item Name="OrientationFSM.vi" Type="VI" URL="../OrientationFSM.vi"/>
 		<Item Name="RubikOpGroup.vi" Type="VI" URL="../RubikOpGroup.vi"/>
 		<Item Name="TestRubikOpGroup.vi" Type="VI" URL="../TestRubikOpGroup.vi"/>
-		<Item Name="OrientationCCW2(L).vi" Type="VI" URL="../OrientationCCW2(L).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AI IRQ FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/IRQ/typedefs/AI IRQ FPGA Reference.ctl"/>
