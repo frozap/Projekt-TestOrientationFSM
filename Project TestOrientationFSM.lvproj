@@ -90,6 +90,7 @@
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="RubikLibraryRT.lvlib" Type="Library" URL="../../Projekt-RubikLibrary/RubikLibraryRT.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -182,6 +183,7 @@ AddOutputFilter chunkFilter
 		<Item Name="OrientationFSM.vi" Type="VI" URL="../OrientationFSM.vi"/>
 		<Item Name="RubikOpGroup.vi" Type="VI" URL="../RubikOpGroup.vi"/>
 		<Item Name="TestRubikOpGroup.vi" Type="VI" URL="../TestRubikOpGroup.vi"/>
+		<Item Name="RubikLibraryRT.lvlib" Type="Library" URL="../../Projekt-RubikLibrary/RubikLibraryRT.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AI IRQ FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/IRQ/typedefs/AI IRQ FPGA Reference.ctl"/>
