@@ -183,6 +183,8 @@ AddOutputFilter chunkFilter
 		<Item Name="OrientationFSM.vi" Type="VI" URL="../OrientationFSM.vi"/>
 		<Item Name="RubikOpGroup.vi" Type="VI" URL="../RubikOpGroup.vi"/>
 		<Item Name="TestRubikOpGroup.vi" Type="VI" URL="../TestRubikOpGroup.vi"/>
+		<Item Name="TestAsyncGrip.vi" Type="VI" URL="../TestAsyncGrip.vi"/>
+		<Item Name="TestAsyncMove.vi" Type="VI" URL="../TestAsyncMove.vi"/>
 		<Item Name="RubikLibraryRT.lvlib" Type="Library" URL="../../Projekt-RubikLibrary/RubikLibraryRT.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
