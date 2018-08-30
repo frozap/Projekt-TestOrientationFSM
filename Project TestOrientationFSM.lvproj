@@ -185,6 +185,8 @@ AddOutputFilter chunkFilter
 		<Item Name="TestRubikOpGroup.vi" Type="VI" URL="../TestRubikOpGroup.vi"/>
 		<Item Name="TestSyncGrip.vi" Type="VI" URL="../TestSyncGrip.vi"/>
 		<Item Name="TestSyncTurn.vi" Type="VI" URL="../TestSyncTurn.vi"/>
+		<Item Name="TestTimingGrip.vi" Type="VI" URL="../TestTimingGrip.vi"/>
+		<Item Name="TestTimingTurn.vi" Type="VI" URL="../TestTimingTurn.vi"/>
 		<Item Name="RubikLibraryRT.lvlib" Type="Library" URL="../../Projekt-RubikLibrary/RubikLibraryRT.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
